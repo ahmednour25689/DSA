@@ -6,16 +6,8 @@
 //
 
 #include <stdio.h>
-#include <Node.h>
+#include "Node.h"
 
-class Node {
-
-
-public:
-    int data;
-    Node* nextItem;
-    
-    Node() {
-        nextItem = nullptr;
+   Node::Node() {
+        nextElement = nullptr;
     }
-};

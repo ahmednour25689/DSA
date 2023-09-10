@@ -10,7 +10,7 @@
 class Node {
 public:
     int data;
-    Node* nextItem;
+    Node* nextElement;
     Node();
 };
 

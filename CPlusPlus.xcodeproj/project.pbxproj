@@ -25,11 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CABFB8902AABCA9700F989AE /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		CABFB8912AABCBCE00F989AE /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		CAED35E92AABBC0100AABE7C /* CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAED35EC2AABBC0100AABE7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CAED35F32AABC59800AABE7C /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		CAED35F52AABC8AD00AABE7C /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
-		CAED35F72AABC98700AABE7C /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,8 @@
 				CAED35EC2AABBC0100AABE7C /* main.cpp */,
 				CAED35F32AABC59800AABE7C /* Node.cpp */,
 				CAED35F52AABC8AD00AABE7C /* LinkedList.cpp */,
-				CAED35F72AABC98700AABE7C /* Node.h */,
+				CABFB8902AABCA9700F989AE /* Node.h */,
+				CABFB8912AABCBCE00F989AE /* LinkedList.h */,
 			);
 			path = CPlusPlus;
 			sourceTree = "<group>";
