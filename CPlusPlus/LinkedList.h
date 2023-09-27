@@ -17,6 +17,7 @@ public:
     Node* getHead();
     bool isEmpty();
     void insertAtHead(int value);
+    void insertAtTail(int value);
     bool printList();
 };
 

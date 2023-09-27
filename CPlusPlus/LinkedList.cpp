@@ -32,7 +32,7 @@ bool LinkedList::printList() {        // Printing the list
     Node *temp = head;        // starting from head node
     cout << "List : ";
 
-    while (temp != nullptr) {     // traveresing through the List
+    while (temp != nullptr) {     // traversing through the List
         cout << temp->data << "->"  ;
         temp = temp->nextElement;    // moving on to the temp's nextElement
     }
