@@ -94,24 +94,31 @@ public:
 int main(int argc, const char * argv[]) {
     // insert code here...
   //  LinkedList linkedList;
-    Graph myGraph(5);
 
-    myQueue q;
-    for(int i=1; i<=5; i++) {
-        q.enqueue(i);      // inserting data in queue
-        q.showqueue();
-    }
+    Graph g(4);
+    g.addEdge(0, 1);
+    g.addEdge(0, 2);
+    g.addEdge(1, 3);
+    g.addEdge(2, 3);
+    cout << endl;
+    g.printGraph();
 
-    q.getFront();
-    q.getTail();
-    q.getSize();  // size of queue
-
-    while (q.isEmpty() == false)
-    {
-        q.dequeue();
-         cout<< "Dequeue() " << endl;
-        q.showqueue();
-    }
+//    myQueue q;
+//    for(int i=1; i<=5; i++) {
+//        q.enqueue(i);      // inserting data in queue
+//        q.showqueue();
+//    }
+//
+//    q.getFront();
+//    q.getTail();
+//    q.getSize();  // size of queue
+//
+//    while (q.isEmpty() == false)
+//    {
+//        q.dequeue();
+//         cout<< "Dequeue() " << endl;
+//        q.showqueue();
+//    }
 
 //    cout << linkedList.isEmpty() << endl;
 //
