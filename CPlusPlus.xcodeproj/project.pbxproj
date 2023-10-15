@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CAA007782ADBEAE1005AC430 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA007762ADBEAE1005AC430 /* Stack.cpp */; };
+		CAA0077B2ADBF2CC005AC430 /* DoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA007792ADBF2CC005AC430 /* DoublyLinkedList.cpp */; };
+		CAA0077E2ADC14D1005AC430 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA0077C2ADC14D1005AC430 /* Graph.cpp */; };
 		CAED35ED2AABBC0100AABE7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAED35EC2AABBC0100AABE7C /* main.cpp */; };
 		CAED35F42AABC59800AABE7C /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAED35F32AABC59800AABE7C /* Node.cpp */; };
 		CAED35F62AABC8AD00AABE7C /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAED35F52AABC8AD00AABE7C /* LinkedList.cpp */; };
@@ -28,6 +30,10 @@
 /* Begin PBXFileReference section */
 		CAA007762ADBEAE1005AC430 /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
 		CAA007772ADBEAE1005AC430 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		CAA007792ADBF2CC005AC430 /* DoublyLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoublyLinkedList.cpp; sourceTree = "<group>"; };
+		CAA0077A2ADBF2CC005AC430 /* DoublyLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoublyLinkedList.hpp; sourceTree = "<group>"; };
+		CAA0077C2ADC14D1005AC430 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		CAA0077D2ADC14D1005AC430 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		CABFB8902AABCA9700F989AE /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		CABFB8912AABCBCE00F989AE /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		CAED35E92AABBC0100AABE7C /* CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +79,10 @@
 				CABFB8912AABCBCE00F989AE /* LinkedList.h */,
 				CAA007762ADBEAE1005AC430 /* Stack.cpp */,
 				CAA007772ADBEAE1005AC430 /* Stack.hpp */,
+				CAA007792ADBF2CC005AC430 /* DoublyLinkedList.cpp */,
+				CAA0077A2ADBF2CC005AC430 /* DoublyLinkedList.hpp */,
+				CAA0077C2ADC14D1005AC430 /* Graph.cpp */,
+				CAA0077D2ADC14D1005AC430 /* Graph.hpp */,
 			);
 			path = CPlusPlus;
 			sourceTree = "<group>";
@@ -138,6 +148,8 @@
 				CAED35ED2AABBC0100AABE7C /* main.cpp in Sources */,
 				CAED35F62AABC8AD00AABE7C /* LinkedList.cpp in Sources */,
 				CAED35F42AABC59800AABE7C /* Node.cpp in Sources */,
+				CAA0077E2ADC14D1005AC430 /* Graph.cpp in Sources */,
+				CAA0077B2ADBF2CC005AC430 /* DoublyLinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,9 @@
 #include <iostream>
 #include "LinkedList.h"
 #include "Node.h"
+#include "DoublyLinkedList.hpp"
+#include "Graph.hpp"
+
 using namespace std;
 
 //Function inserts a value/new Node as the first Element of list
@@ -37,16 +40,85 @@ void LinkedList::insertAtTail(int value) {
 
 }
 
+class myQueue {
+private:
+    DoublyLinkedList items;
+    int numElements;
+
+public:
+    myQueue() {
+        numElements = 0;
+    }
+    int isEmpty() {
+        return (items.size == 0);
+    }
+
+    int getFront() {
+        if (!(items.isEmpty())) {
+            return items.getHead();
+        }else {
+            return -1;
+        }
+    }
+
+    int getSize() {
+        return items.size;
+    }
+
+    int enqueue(int value) {
+        return items.insertTail(value);
+    }
+
+    int dequeue() {
+        return items.deleteHead();
+    }
+
+    int getTail() {
+        if (!(items.isEmpty())) {
+            cout << "getTail(): " << items.getTail() << endl;
+            return items.getTail();
+        } else {
+            return -1;
+        }
+    }
+
+    bool showqueue() {
+        return items.printList();
+    }
+
+
+};
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    LinkedList linkedList;
-    cout << linkedList.isEmpty() << endl;
+  //  LinkedList linkedList;
+    Graph myGraph(5);
 
-    for(int i= 1; i < 10; i++) {
-        linkedList.insertAtTail(i);
-        linkedList.printList();
-
+    myQueue q;
+    for(int i=1; i<=5; i++) {
+        q.enqueue(i);      // inserting data in queue
+        q.showqueue();
     }
+
+    q.getFront();
+    q.getTail();
+    q.getSize();  // size of queue
+
+    while (q.isEmpty() == false)
+    {
+        q.dequeue();
+         cout<< "Dequeue() " << endl;
+        q.showqueue();
+    }
+
+//    cout << linkedList.isEmpty() << endl;
+//
+//    for(int i= 1; i < 10; i++) {
+//        linkedList.insertAtTail(i);
+//        linkedList.printList();
+//
+//    }
     return 0;
 }
